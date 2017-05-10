@@ -12,6 +12,7 @@
 		E47F26C01EC320D1002E3ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47F26BE1EC320D1002E3ED7 /* Main.storyboard */; };
 		E47F26C21EC320D1002E3ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47F26C11EC320D1002E3ED7 /* Assets.xcassets */; };
 		E47F26C51EC320D1002E3ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47F26C31EC320D1002E3ED7 /* LaunchScreen.storyboard */; };
+		E47F26CD1EC321B0002E3ED7 /* HSFrameRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47F26CC1EC321B0002E3ED7 /* HSFrameRotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E47F26C11EC320D1002E3ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E47F26C41EC320D1002E3ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E47F26C61EC320D1002E3ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47F26CC1EC321B0002E3ED7 /* HSFrameRotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSFrameRotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E47F26BA1EC320D1002E3ED7 /* AppDelegate.swift */,
 				E47F26BC1EC320D1002E3ED7 /* ViewController.swift */,
+				E47F26CC1EC321B0002E3ED7 /* HSFrameRotationView.swift */,
 				E47F26BE1EC320D1002E3ED7 /* Main.storyboard */,
 				E47F26C11EC320D1002E3ED7 /* Assets.xcassets */,
 				E47F26C31EC320D1002E3ED7 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				E47F26BD1EC320D1002E3ED7 /* ViewController.swift in Sources */,
 				E47F26BB1EC320D1002E3ED7 /* AppDelegate.swift in Sources */,
+				E47F26CD1EC321B0002E3ED7 /* HSFrameRotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +306,7 @@
 				E47F26CB1EC320D1002E3ED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
