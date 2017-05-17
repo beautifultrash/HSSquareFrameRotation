@@ -14,12 +14,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        
+        let bgColorLayer = CAGradientLayer()
+        bgColorLayer.frame = self.view.bounds
+        bgColorLayer.colors = [UIColor(hex: 0x2AC1BC).withAlphaComponent(0.5).cgColor as Any,
+                               UIColor(hex: 0xF25050).withAlphaComponent(0.5).cgColor as Any]
+        bgColorLayer.startPoint = CGPoint(x: 0.5, y: 0.0)
+        bgColorLayer.endPoint = CGPoint(x: 0.5, y: 1.0)
+        self.view.layer.addSublayer(bgColorLayer)
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     @IBAction func respondsToBeginRotate(sender: UIButton) {

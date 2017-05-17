@@ -13,6 +13,7 @@
 		E47F26C21EC320D1002E3ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47F26C11EC320D1002E3ED7 /* Assets.xcassets */; };
 		E47F26C51EC320D1002E3ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47F26C31EC320D1002E3ED7 /* LaunchScreen.storyboard */; };
 		E47F26CD1EC321B0002E3ED7 /* HSFrameRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47F26CC1EC321B0002E3ED7 /* HSFrameRotationView.swift */; };
+		E47F26D31ECC48EB002E3ED7 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47F26D21ECC48EB002E3ED7 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E47F26C41EC320D1002E3ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E47F26C61EC320D1002E3ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E47F26CC1EC321B0002E3ED7 /* HSFrameRotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSFrameRotationView.swift; sourceTree = "<group>"; };
+		E47F26D21ECC48EB002E3ED7 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				E47F26BA1EC320D1002E3ED7 /* AppDelegate.swift */,
 				E47F26BC1EC320D1002E3ED7 /* ViewController.swift */,
+				E47F26D21ECC48EB002E3ED7 /* UIColorExtension.swift */,
 				E47F26CC1EC321B0002E3ED7 /* HSFrameRotationView.swift */,
 				E47F26BE1EC320D1002E3ED7 /* Main.storyboard */,
 				E47F26C11EC320D1002E3ED7 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 				E47F26BD1EC320D1002E3ED7 /* ViewController.swift in Sources */,
 				E47F26BB1EC320D1002E3ED7 /* AppDelegate.swift in Sources */,
 				E47F26CD1EC321B0002E3ED7 /* HSFrameRotationView.swift in Sources */,
+				E47F26D31ECC48EB002E3ED7 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +271,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7ZYCKSCKT6;
 				INFOPLIST_FILE = HSSquareFrameRotation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.song.HSSquareFrameRotation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -280,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7ZYCKSCKT6;
 				INFOPLIST_FILE = HSSquareFrameRotation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.song.HSSquareFrameRotation;
 				PRODUCT_NAME = "$(TARGET_NAME)";

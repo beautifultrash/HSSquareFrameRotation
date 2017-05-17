@@ -24,23 +24,10 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uiR-Xi-DDi" customClass="HSFrameRotationView" customModule="HSSquareFrameRotation" customModuleProvider="target">
                                 <rect key="frame" x="67" y="213" width="240" height="240"/>
-                                <subviews>
-                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y64-gJ-ncK">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <connections>
-                                            <action selector="respondsToBeginRotateWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MkJ-an-SiM"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="Y64-gJ-ncK" firstAttribute="centerX" secondItem="uiR-Xi-DDi" secondAttribute="centerX" id="3Z0-dE-aXC"/>
-                                    <constraint firstItem="Y64-gJ-ncK" firstAttribute="centerY" secondItem="uiR-Xi-DDi" secondAttribute="centerY" id="7VJ-Tq-Kbh"/>
                                     <constraint firstAttribute="width" constant="240" id="GJP-mo-lTT"/>
                                     <constraint firstAttribute="width" secondItem="uiR-Xi-DDi" secondAttribute="height" multiplier="1:1" id="NtJ-2X-YQj"/>
-                                    <constraint firstItem="Y64-gJ-ncK" firstAttribute="height" secondItem="uiR-Xi-DDi" secondAttribute="height" id="Wjc-Gj-Upj"/>
-                                    <constraint firstItem="Y64-gJ-ncK" firstAttribute="width" secondItem="uiR-Xi-DDi" secondAttribute="width" id="lE9-fz-OaN"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="frameColor">
@@ -50,14 +37,25 @@
                                         <real key="value" value="0.5"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="subFrames">
-                                        <integer key="value" value="5"/>
+                                        <integer key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y64-gJ-ncK">
+                                <rect key="frame" x="67" y="213" width="240" height="240"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="respondsToBeginRotateWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MkJ-an-SiM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="uiR-Xi-DDi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FUB-UY-iMz"/>
+                            <constraint firstItem="Y64-gJ-ncK" firstAttribute="width" secondItem="uiR-Xi-DDi" secondAttribute="width" id="FmS-XI-qqH"/>
+                            <constraint firstItem="Y64-gJ-ncK" firstAttribute="centerX" secondItem="uiR-Xi-DDi" secondAttribute="centerX" id="NYP-QG-PlL"/>
+                            <constraint firstItem="Y64-gJ-ncK" firstAttribute="centerY" secondItem="uiR-Xi-DDi" secondAttribute="centerY" id="NyP-v0-dBf"/>
+                            <constraint firstItem="Y64-gJ-ncK" firstAttribute="height" secondItem="uiR-Xi-DDi" secondAttribute="height" id="ccu-4a-KV9"/>
                             <constraint firstItem="uiR-Xi-DDi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lKO-s8-muO"/>
                         </constraints>
                     </view>
